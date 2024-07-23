@@ -1,0 +1,13 @@
+{
+  "name": "martial_arts_academy",
+  "version": "1.0.0",
+  "description": "ShinJi Kung Fu Martial Arts academy",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "veer",
+  "license": "ISC",  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
