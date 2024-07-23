@@ -103,9 +103,9 @@ a {
           right: 2.5rem;
           top: 2.8rem;
           cursor: pointer;
-          color: #fcf6ec; }
+          color: #000000; }
           .header .navbar .nav #nav-small:hover, .header .navbar .nav #nav-small:focus {
-            color: floralwhite;
+            color: rgb(255, 240, 240);
             text-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2); }
         .header .navbar .nav .menu {
           display: none;
