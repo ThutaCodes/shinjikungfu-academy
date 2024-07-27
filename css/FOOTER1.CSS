@@ -74,10 +74,11 @@ html{
 
 .footer .address-academy li a{
     text-decoration: none;
-    color: floralwhite;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     line-height: 1.4;
     text-transform: auto;
+    
 }
 .nav-link-footer a:hover, .footer .address-academy li:hover, .nav-link-footer a:focus, .footer .address-academy li:focus{
     color: #ffffffff;
