@@ -12,7 +12,7 @@
             <a href="./MissionVissionHistory.html"> About us</a>
             <a href=""> Members</a>
             <a href="./events.html"> Events</a>
-            <a href="./Blogs.html"> Blogs</a>
+            <a href="./highlights.html"> Blogs</a>
         </div>
         <ul class="address-academy">
             <li>
@@ -85,7 +85,7 @@
 
                     <a href="./Gallery.html" id="gallery" class="active active-small">gallery</a>
 
-                    <a href="./Blogs.html" id="blog">blog</a>
+                    <a href="./highlights.html" id="blog">blog</a>
 
                 </div>
             </div>
