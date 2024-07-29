@@ -1341,7 +1341,7 @@ html {
             transform: scale(1.05) translateY(-0.5rem);
             outline-offset: 1.4rem;
             z-index: 20;
-            outline: 1rem solid #1f746e; }
+            outline: 1rem solid #ff0000; }
         .event .event-right .event-img:hover .img:not(:hover) {
           transform: scale(0.9); } }
 
