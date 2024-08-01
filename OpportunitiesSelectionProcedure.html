@@ -154,31 +154,14 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <a href="./index.html">
-            <img src="./img/sj_logo.png" class="logo_footer" alt="logo_footer">
-        </a>
-        <a href="./index.html">
-            <h2 class="footer-logo_text">Shin Ji Kung Fu <br>Martial Arts Academy</h2>
-        </a>
-        
-        <ul class="address-academy">
-            <li>
-                <a href="./ContactUs.html">
-                    
-                    
-                </a>
-            </li><br>
-            <li><a href="mailto:shinjiumyatshin@gmail.com "></a></li>
-        </ul>
-        <div class="social-links">
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.tiktok.com/@umyatshin?_t=8oG6GLCd8Kd&_r=1"> <i class="fab fa-tiktok"></i></a>
-            <a href="https://www.youtube.com/@ShinJiKungFu"> <i class="fab fa-youtube"></i></a>
-            
-        </div>
-        
-    </footer>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
     <script type="text/javascript" src="./javascript/MissionVissionHistory.js"></script>
    
 </body>

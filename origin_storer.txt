@@ -8,22 +8,23 @@
             <h2 class="footer-logo_text">Martial Arts Karate <br> Academy NIT-Hamirpur</h2>
         </a>
         <div class="nav-link-footer">
-            <a href="./index.html"> Home</a>
-            <a href="./MissionVissionHistory.html"> About us</a>
-            <a href=""> Members</a>
-            <a href="./events.html"> Events</a>
-            <a href="./highlights.html"> Blogs</a>
-        </div>
-        <ul class="address-academy">
-            <li>
-                <a href="./ContactUs.html">
-                    DOJO Hall<br>Sports Complex 
-                    NIT-Hamirpur<br>Hamirpur 
-                    Himachal Pradesh
-                </a>
-            </li><br>
-            <li><a href="mailto:karateacademynithamirpur@gmail.com ">karateacademynithamirpur@gmail.com</a></li>
-        </ul>
+        <a href="./index.html"> Home</a>
+        <a href="./MissionVissionHistory.html"> About us</a>
+        <a href="Instructors.html">Instructors</a>
+        <a href="./events.html"> Events</a>
+        <a href="./highlights.html">Highlights</a>
+    </div>
+
+    <ul class="address-academy">
+        <li>
+            <a href="./ContactUs.html">
+                No.502<br>Anawma 11 Street
+                Tharketa Township<br>Yangon
+                Myanmar
+            </a>
+        </li><br>
+        <li><a href="mailto:shinjiumyatshin@gmail.com">shinjiumyatshin@gmail.com</a></li>
+    </ul>
         <div class="social-links">
             <a href="https://www.facebook.com/NITH.KARATE.ACADEMY/" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://mobile.twitter.com/karate_nith" target="_blank"> <i class="fab fa-twitter"></i></a>
