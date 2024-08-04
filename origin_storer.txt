@@ -9,7 +9,7 @@
         </a>
         <div class="nav-link-footer">
         <a href="./index.html"> Home</a>
-        <a href="./MissionVissionHistory.html"> About us</a>
+        <a href="./MissionVisionHistory.html"> About us</a>
         <a href="Instructors.html">Instructors</a>
         <a href="./events.html"> Events</a>
         <a href="./highlights.html">Highlights</a>
@@ -65,7 +65,7 @@
 
                             <ul id="AboutUsSubSections">
 
-                                <li><a href="./MissionVissionHistory.html">Mission Vision History</a></li>
+                                <li><a href="./MissionVisionHistory.html">Mission Vision History</a></li>
 
                                 <li><a href="./Instructors.html">Instructors</a></li>
 
