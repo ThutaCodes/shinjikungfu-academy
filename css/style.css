@@ -1429,6 +1429,9 @@ html {
     main.gallery .Gallery-div {
       display: inline-block;
       margin-left: 9.5rem; } }
+  
+      
+/*
 
 @media only screen and (min-width: 0px) {
   section.centered_section {
@@ -1490,6 +1493,90 @@ html {
       display: inline-block;
       margin: 5px;
       object-fit: cover; } }
+
+
+
+
+
+*/ /*original code*/
+
+
+/* General styling for images */
+section.centered_section .Gallery_IMG {
+  object-fit: cover; /* Ensures images cover the container without distortion */
+  width: 100%; /* Makes images fill their container */
+  display: block; /* Ensures images are displayed as block elements */
+  border-radius: 0.4rem; /* Adds a slight rounded corner */
+}
+
+/* Grid layout for images */
+section.centered_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid columns */
+  gap: 1rem; /* Space between images */
+  width: 100%; /* Makes sure the section takes full width */
+  padding: 1rem; /* Padding around the section */
+}
+
+/* Styling for smaller screens */
+@media only screen and (min-width: 0px) {
+  section.centered_section {
+    transform: translateY(-1rem); /* Adjust positioning if needed */
+  }
+}
+
+/* Styling for screens 380px and larger */
+@media only screen and (min-width: 380px) {
+  section.centered_section {
+    width: 100%; /* Full width for small screens */
+    margin: 0 auto; /* Centers the section */
+  }
+}
+
+/* Styling for screens 500px and larger */
+@media only screen and (min-width: 500px) {
+  section.centered_section {
+    width: 45rem; /* Fixed width for larger screens */
+    transform: translateY(-7rem); /* Adjust positioning if needed */
+  }
+}
+
+/* Styling for screens 600px and larger */
+@media only screen and (min-width: 600px) {
+  section.centered_section {
+    width: 50rem; /* Fixed width for larger screens */
+    transform: translateY(-7rem); /* Adjust positioning if needed */
+  }
+}
+
+/* Styling for screens 850px and larger */
+@media only screen and (min-width: 850px) {
+  section.centered_section {
+    width: 90%; /* Responsive width for very large screens */
+    transform: translateY(-8rem); /* Adjust positioning if needed */
+  }
+
+  section.centered_section .Gallery_IMG {
+    width: 100%; /* Full width for large screens */
+    height: auto; /* Maintains aspect ratio */
+  }
+}
+
+/* Styling for screens 1230px and larger */
+@media only screen and (min-width: 1230px) {
+  section.centered_section {
+    width: 117rem; /* Fixed width for very large screens */
+    transform: translateY(-8rem); /* Adjust positioning if needed */
+  }
+
+  section.centered_section .Gallery_IMG {
+    width: 100%; /* Full width for very large screens */
+    height: auto; /* Maintains aspect ratio */
+  }
+}
+
+
+
 
 @media only screen and (min-width: 0px) {
   .All_blogs {
